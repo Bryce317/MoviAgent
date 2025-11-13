@@ -133,10 +133,10 @@ def main():
     st.sidebar.markdown("---")
     speak_out = st.sidebar.checkbox("Speak Movi's responses", value=False)
 
-    st.sidebar.markdown("#### Voice input (optional)")
+    st.sidebar.markdown("#### Voice input")
     audio_input = st.sidebar.audio_input("Record a query", key="voice_query")
 
-    st.sidebar.markdown("#### Screenshot input (optional)")
+    st.sidebar.markdown("#### Screenshot input")
     uploaded_img = st.sidebar.file_uploader(
         "Upload busDashboard screenshot", type=["png", "jpg", "jpeg"]
     )
